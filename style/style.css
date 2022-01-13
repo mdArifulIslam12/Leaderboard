@@ -194,6 +194,7 @@ nav{
     }
     .player,.blog,nav{
         flex-direction: column;
+        align-items: center;
     }
     .single-course{
         margin-top: 20px;
