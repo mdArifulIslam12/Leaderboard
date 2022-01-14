@@ -198,13 +198,13 @@ nav{
     .players,.blogs,.courses,.header{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player,.blog,nav,.course{
+    .player,.blog,nav,.courses{
         flex-direction: column;
         align-items: center;
+        display: flex;
     }
     .single-course{
         margin-top: 20px;
-        margin-left: 30px;
     }
     .blogs{
         margin-bottom: 20px;
