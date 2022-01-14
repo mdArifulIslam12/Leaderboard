@@ -183,24 +183,24 @@ nav{
 
 /* Media Queries */
 @media only screen and (max-width:688px) {
-    .container{
+    .container,.header-container{
         width: 100%;
+        overflow: hidden;
     }
     .header-container{
         background-color: blue;
+        padding: 0;
+        /* overflow: hidden; */
     }
-    .players,.blogs,.courses,nav{
+    .players,.blogs,.courses,.header{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player,.blog,nav{
+    .player,.blog,nav,.course{
         flex-direction: column;
         align-items: center;
     }
     .single-course{
         margin-top: 20px;
         margin-left: 20px;
-    }
-    .blog{
-        margin-left: 20px
     }
 }
