@@ -210,3 +210,30 @@ nav{
         margin-bottom: 20px;
     }
 }
+
+/* tablet */
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .container,.header-container{
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+    .players,.header,.courses{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .blog,.player,.courses{
+        justify-content: center;
+    }
+    .single-course{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .blogs{
+        margin-bottom: 30px;
+    }
+}
