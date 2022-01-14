@@ -186,11 +186,14 @@ nav{
     .container,.header-container{
         width: 100%;
         overflow: hidden;
-    }
-    .header-container{
-        background-color: blue;
         padding: 0;
-        /* overflow: hidden; */
+    }
+    .section-title{
+        padding-left: 20px;
+    }
+    .header-meun a{
+        padding: 0;
+        padding-right: 30px;
     }
     .players,.blogs,.courses,.header{
         grid-template-columns: repeat(1, 1fr);
@@ -201,6 +204,9 @@ nav{
     }
     .single-course{
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
+    }
+    .blogs{
+        margin-bottom: 20px;
     }
 }
